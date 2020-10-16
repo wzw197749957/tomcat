@@ -32,7 +32,7 @@ public class Bootstrap {
 
     private Server server;
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException, ClassNotFoundException {
         new Bootstrap().start();
     }
 

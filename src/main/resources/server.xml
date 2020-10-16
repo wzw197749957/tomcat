@@ -3,9 +3,7 @@
     <Service>
         <Connector port="8080"/>
         <Engine>
-            <!--<Host name="localhost" appBase="E:/lagouworkspace/lagou_edu_spring_hw/lagou_edu_minicat/webapps"></Host>-->
-
-            <Host name="localhost" appBase="/Users/gangwang/mywork/workspace/minicat/webapps"></Host>
+            <Host name="localhost" appBase="D:\webapps"></Host>
         </Engine>
     </Service>
 </Server>

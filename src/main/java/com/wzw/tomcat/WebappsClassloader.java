@@ -114,6 +114,13 @@ public class WebappsClassloader extends URLClassLoader {
         return this.javaseClassLoader;
     }
 
+    /**
+     *
+     * @param name
+     * @return
+     * @throws ClassNotFoundException
+     * 此处遇到问题：当servlet类打成包后，其父类不在该路径下，该如何一并打包
+     */
     @Override
     protected Class<?> findClass(String name) throws ClassNotFoundException {
         String path = binaryNameToPath(name , true);
